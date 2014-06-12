@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8198F8101949EFB2002ED89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8198F80F1949EFB2002ED89B /* Foundation.framework */; };
+		8198F8121949EFB2002ED89B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8198F8111949EFB2002ED89B /* CoreGraphics.framework */; };
+		8198F8141949EFB2002ED89B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8198F8131949EFB2002ED89B /* UIKit.framework */; };
+		8198F81A1949EFB2002ED89B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8198F8181949EFB2002ED89B /* InfoPlist.strings */; };
+		8198F81C1949EFB2002ED89B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198F81B1949EFB2002ED89B /* main.m */; };
+		8198F8201949EFB2002ED89B /* PCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198F81F1949EFB2002ED89B /* PCSAppDelegate.m */; };
+		8198F8221949EFB2002ED89B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8198F8211949EFB2002ED89B /* Images.xcassets */; };
+		8198F8291949EFB2002ED89B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8198F8281949EFB2002ED89B /* XCTest.framework */; };
+		8198F82A1949EFB2002ED89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8198F80F1949EFB2002ED89B /* Foundation.framework */; };
+		8198F82B1949EFB2002ED89B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8198F8131949EFB2002ED89B /* UIKit.framework */; };
+		8198F8331949EFB2002ED89B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8198F8311949EFB2002ED89B /* InfoPlist.strings */; };
+		8198F8351949EFB2002ED89B /* PCSPopupControllerContainerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198F8341949EFB2002ED89B /* PCSPopupControllerContainerExampleTests.m */; };
+		8198F8411949EFE5002ED89B /* PCSPopupControllerContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198F8401949EFE5002ED89B /* PCSPopupControllerContainer.m */; };
+		8198F8441949EFF3002ED89B /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198F8431949EFF3002ED89B /* MyController.m */; };
+		8198F8471949F002002ED89B /* PopupThisController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198F8461949F002002ED89B /* PopupThisController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8198F82C1949EFB2002ED89B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8198F8041949EFB2002ED89B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8198F80B1949EFB2002ED89B;
+			remoteInfo = PCSPopupControllerContainerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8198F80C1949EFB2002ED89B /* PCSPopupControllerContainerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCSPopupControllerContainerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8198F80F1949EFB2002ED89B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8198F8111949EFB2002ED89B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8198F8131949EFB2002ED89B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8198F8171949EFB2002ED89B /* PCSPopupControllerContainerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCSPopupControllerContainerExample-Info.plist"; sourceTree = "<group>"; };
+		8198F8191949EFB2002ED89B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8198F81B1949EFB2002ED89B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8198F81D1949EFB2002ED89B /* PCSPopupControllerContainerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCSPopupControllerContainerExample-Prefix.pch"; sourceTree = "<group>"; };
+		8198F81E1949EFB2002ED89B /* PCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSAppDelegate.h; sourceTree = "<group>"; };
+		8198F81F1949EFB2002ED89B /* PCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSAppDelegate.m; sourceTree = "<group>"; };
+		8198F8211949EFB2002ED89B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8198F8271949EFB2002ED89B /* PCSPopupControllerContainerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCSPopupControllerContainerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8198F8281949EFB2002ED89B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8198F8301949EFB2002ED89B /* PCSPopupControllerContainerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCSPopupControllerContainerExampleTests-Info.plist"; sourceTree = "<group>"; };
+		8198F8321949EFB2002ED89B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8198F8341949EFB2002ED89B /* PCSPopupControllerContainerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSPopupControllerContainerExampleTests.m; sourceTree = "<group>"; };
+		8198F83F1949EFE5002ED89B /* PCSPopupControllerContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSPopupControllerContainer.h; sourceTree = "<group>"; };
+		8198F8401949EFE5002ED89B /* PCSPopupControllerContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSPopupControllerContainer.m; sourceTree = "<group>"; };
+		8198F8421949EFF3002ED89B /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		8198F8431949EFF3002ED89B /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
+		8198F8451949F002002ED89B /* PopupThisController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupThisController.h; sourceTree = "<group>"; };
+		8198F8461949F002002ED89B /* PopupThisController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupThisController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8198F8091949EFB2002ED89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8198F8121949EFB2002ED89B /* CoreGraphics.framework in Frameworks */,
+				8198F8141949EFB2002ED89B /* UIKit.framework in Frameworks */,
+				8198F8101949EFB2002ED89B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198F8241949EFB2002ED89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8198F8291949EFB2002ED89B /* XCTest.framework in Frameworks */,
+				8198F82B1949EFB2002ED89B /* UIKit.framework in Frameworks */,
+				8198F82A1949EFB2002ED89B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8198F8031949EFB2002ED89B = {
+			isa = PBXGroup;
+			children = (
+				8198F83E1949EFCA002ED89B /* PCSPopupControllerContainer */,
+				8198F8151949EFB2002ED89B /* PCSPopupControllerContainerExample */,
+				8198F82E1949EFB2002ED89B /* PCSPopupControllerContainerExampleTests */,
+				8198F80E1949EFB2002ED89B /* Frameworks */,
+				8198F80D1949EFB2002ED89B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8198F80D1949EFB2002ED89B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8198F80C1949EFB2002ED89B /* PCSPopupControllerContainerExample.app */,
+				8198F8271949EFB2002ED89B /* PCSPopupControllerContainerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8198F80E1949EFB2002ED89B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8198F80F1949EFB2002ED89B /* Foundation.framework */,
+				8198F8111949EFB2002ED89B /* CoreGraphics.framework */,
+				8198F8131949EFB2002ED89B /* UIKit.framework */,
+				8198F8281949EFB2002ED89B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8198F8151949EFB2002ED89B /* PCSPopupControllerContainerExample */ = {
+			isa = PBXGroup;
+			children = (
+				8198F8421949EFF3002ED89B /* MyController.h */,
+				8198F8431949EFF3002ED89B /* MyController.m */,
+				8198F8451949F002002ED89B /* PopupThisController.h */,
+				8198F8461949F002002ED89B /* PopupThisController.m */,
+				8198F81E1949EFB2002ED89B /* PCSAppDelegate.h */,
+				8198F81F1949EFB2002ED89B /* PCSAppDelegate.m */,
+				8198F8211949EFB2002ED89B /* Images.xcassets */,
+				8198F8161949EFB2002ED89B /* Supporting Files */,
+			);
+			path = PCSPopupControllerContainerExample;
+			sourceTree = "<group>";
+		};
+		8198F8161949EFB2002ED89B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8198F8171949EFB2002ED89B /* PCSPopupControllerContainerExample-Info.plist */,
+				8198F8181949EFB2002ED89B /* InfoPlist.strings */,
+				8198F81B1949EFB2002ED89B /* main.m */,
+				8198F81D1949EFB2002ED89B /* PCSPopupControllerContainerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8198F82E1949EFB2002ED89B /* PCSPopupControllerContainerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8198F8341949EFB2002ED89B /* PCSPopupControllerContainerExampleTests.m */,
+				8198F82F1949EFB2002ED89B /* Supporting Files */,
+			);
+			path = PCSPopupControllerContainerExampleTests;
+			sourceTree = "<group>";
+		};
+		8198F82F1949EFB2002ED89B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8198F8301949EFB2002ED89B /* PCSPopupControllerContainerExampleTests-Info.plist */,
+				8198F8311949EFB2002ED89B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8198F83E1949EFCA002ED89B /* PCSPopupControllerContainer */ = {
+			isa = PBXGroup;
+			children = (
+				8198F83F1949EFE5002ED89B /* PCSPopupControllerContainer.h */,
+				8198F8401949EFE5002ED89B /* PCSPopupControllerContainer.m */,
+			);
+			name = PCSPopupControllerContainer;
+			path = ../PCSPopupControllerContainer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8198F80B1949EFB2002ED89B /* PCSPopupControllerContainerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8198F8381949EFB2002ED89B /* Build configuration list for PBXNativeTarget "PCSPopupControllerContainerExample" */;
+			buildPhases = (
+				8198F8081949EFB2002ED89B /* Sources */,
+				8198F8091949EFB2002ED89B /* Frameworks */,
+				8198F80A1949EFB2002ED89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCSPopupControllerContainerExample;
+			productName = PCSPopupControllerContainerExample;
+			productReference = 8198F80C1949EFB2002ED89B /* PCSPopupControllerContainerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8198F8261949EFB2002ED89B /* PCSPopupControllerContainerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8198F83B1949EFB2002ED89B /* Build configuration list for PBXNativeTarget "PCSPopupControllerContainerExampleTests" */;
+			buildPhases = (
+				8198F8231949EFB2002ED89B /* Sources */,
+				8198F8241949EFB2002ED89B /* Frameworks */,
+				8198F8251949EFB2002ED89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8198F82D1949EFB2002ED89B /* PBXTargetDependency */,
+			);
+			name = PCSPopupControllerContainerExampleTests;
+			productName = PCSPopupControllerContainerExampleTests;
+			productReference = 8198F8271949EFB2002ED89B /* PCSPopupControllerContainerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8198F8041949EFB2002ED89B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PCS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = pchensoftware;
+				TargetAttributes = {
+					8198F8261949EFB2002ED89B = {
+						TestTargetID = 8198F80B1949EFB2002ED89B;
+					};
+				};
+			};
+			buildConfigurationList = 8198F8071949EFB2002ED89B /* Build configuration list for PBXProject "PCSPopupControllerContainerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8198F8031949EFB2002ED89B;
+			productRefGroup = 8198F80D1949EFB2002ED89B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8198F80B1949EFB2002ED89B /* PCSPopupControllerContainerExample */,
+				8198F8261949EFB2002ED89B /* PCSPopupControllerContainerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8198F80A1949EFB2002ED89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8198F81A1949EFB2002ED89B /* InfoPlist.strings in Resources */,
+				8198F8221949EFB2002ED89B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198F8251949EFB2002ED89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8198F8331949EFB2002ED89B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8198F8081949EFB2002ED89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8198F81C1949EFB2002ED89B /* main.m in Sources */,
+				8198F8471949F002002ED89B /* PopupThisController.m in Sources */,
+				8198F8201949EFB2002ED89B /* PCSAppDelegate.m in Sources */,
+				8198F8411949EFE5002ED89B /* PCSPopupControllerContainer.m in Sources */,
+				8198F8441949EFF3002ED89B /* MyController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198F8231949EFB2002ED89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8198F8351949EFB2002ED89B /* PCSPopupControllerContainerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8198F82D1949EFB2002ED89B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8198F80B1949EFB2002ED89B /* PCSPopupControllerContainerExample */;
+			targetProxy = 8198F82C1949EFB2002ED89B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8198F8181949EFB2002ED89B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8198F8191949EFB2002ED89B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8198F8311949EFB2002ED89B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8198F8321949EFB2002ED89B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8198F8361949EFB2002ED89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8198F8371949EFB2002ED89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8198F8391949EFB2002ED89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCSPopupControllerContainerExample/PCSPopupControllerContainerExample-Prefix.pch";
+				INFOPLIST_FILE = "PCSPopupControllerContainerExample/PCSPopupControllerContainerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8198F83A1949EFB2002ED89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCSPopupControllerContainerExample/PCSPopupControllerContainerExample-Prefix.pch";
+				INFOPLIST_FILE = "PCSPopupControllerContainerExample/PCSPopupControllerContainerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8198F83C1949EFB2002ED89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PCSPopupControllerContainerExample.app/PCSPopupControllerContainerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCSPopupControllerContainerExample/PCSPopupControllerContainerExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PCSPopupControllerContainerExampleTests/PCSPopupControllerContainerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8198F83D1949EFB2002ED89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PCSPopupControllerContainerExample.app/PCSPopupControllerContainerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCSPopupControllerContainerExample/PCSPopupControllerContainerExample-Prefix.pch";
+				INFOPLIST_FILE = "PCSPopupControllerContainerExampleTests/PCSPopupControllerContainerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8198F8071949EFB2002ED89B /* Build configuration list for PBXProject "PCSPopupControllerContainerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8198F8361949EFB2002ED89B /* Debug */,
+				8198F8371949EFB2002ED89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8198F8381949EFB2002ED89B /* Build configuration list for PBXNativeTarget "PCSPopupControllerContainerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8198F8391949EFB2002ED89B /* Debug */,
+				8198F83A1949EFB2002ED89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8198F83B1949EFB2002ED89B /* Build configuration list for PBXNativeTarget "PCSPopupControllerContainerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8198F83C1949EFB2002ED89B /* Debug */,
+				8198F83D1949EFB2002ED89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8198F8041949EFB2002ED89B /* Project object */;
+}
