@@ -79,9 +79,12 @@
    [self.fromController.view addSubview:self.popupController.view];
    [self.popupController didMoveToParentViewController:self.fromController];
    
-   self.popupController.view.transform = CGAffineTransformMakeScale(0.2, 0.2);
-   [UIView animateWithDuration:0.2 delay:0 usingSpringWithDamping:0.7 initialSpringVelocity:0 options:0 animations:^{
+   self.popupController.view.alpha = 0;
+   self.popupController.view.transform = CGAffineTransformMakeScale(0.5, 0.5);
+   
+   [UIView animateWithDuration:0.2 delay:0 usingSpringWithDamping:0.8 initialSpringVelocity:0 options:0 animations:^{
       self.popupController.view.transform = CGAffineTransformIdentity;
+      self.popupController.view.alpha = 1;
       underlayView.alpha = 1;
       
    } completion:^(BOOL finished) {
